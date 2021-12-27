@@ -2,12 +2,18 @@
     "name": "daipham31/magento-2-splitdb",
     "description": "Test module for Magento 2",
     "type": "magento2-module",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "DaiPham13/SplitDb"
-            ]
-        ]
-    }
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DaiPham31\\SplitDb\\": ""
+        }
+    },
+    
 }
