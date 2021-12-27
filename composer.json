@@ -1,0 +1,13 @@
+{
+    "name": "daipham31/magento-2-splitdb",
+    "description": "Test module for Magento 2",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "DaiPham13/SplitDb"
+            ]
+        ]
+    }
+}
